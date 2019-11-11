@@ -9,7 +9,6 @@ body {
 div#panel {
 	margin-top: 200px;
 	margin-bottom: 40px;
-	height: 400px;
 	margin-left: 400px;
 	margin-right: 400px;
 
@@ -32,12 +31,7 @@ body{
 /*   position:relative; */
 }
 
-.box{
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform : translate(-50% ,-50%);
-}
+
 
 .btn:link,
 .btn:visited{
@@ -111,4 +105,5 @@ div#output{
 	margin:auto;
 	width:575px;
 	padding:10px;
+  margin-top:50px;
 }
